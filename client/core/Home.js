@@ -41,23 +41,6 @@ export default function Home() {
       <Typography variant="h6" className={classes.title}>
         Home Page
       </Typography>
-      <Link to="/users">
-        <Typography variant="h6" className={classes.title}>
-          Users
-        </Typography>
-      </Link>
-      <Link to="/signup">
-        {" "}
-        <Typography variant="h6" className={classes.title}>
-          Signup
-        </Typography>
-      </Link>
-      <Link to="/signin">
-        {" "}
-        <Typography variant="h6" className={classes.title}>
-          Signin
-        </Typography>
-      </Link>
       <CardMedia
         className={classes.media}
         image={unicornbikeImg}
