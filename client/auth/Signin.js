@@ -45,7 +45,7 @@ export default function Signin(props) {
     error: "",
     redirectToReferrer: false,
   });
-
+  console.log(values);
   const clickSubmit = () => {
     const user = {
       email: values.email || undefined,
